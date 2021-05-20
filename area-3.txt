@@ -1,0 +1,59 @@
+Sir,
+*DPR of A/Lift-Ar3 on 20/05/2021*
+
+*Monitored Wells:*
+G#53,80,120,153,162,232,310,339,340,349,362,438,439,516,535,561,608,668,698,704,713,725,739,741,743,745,754,763,766,767,771,774,777.
+
+*TPR:* G#80,561.
+
+*Remarks:*
+1) *G#561(Bhel-9)(WOR Activation)(7):* Well found flowing with kicks at an interval of 45 mins with CHP varying from 84-86 ksc, increased choke setting to 6/64", now flowing normally,total 48 m³ knocked out till evening, well diverted to GGS for night shift.
+2) *G#766 & 741(EPS-253):* Observed flow behaviour and found feeble flow at CHP 86 ksc and 98Ksc respectively. Charged casing with excess lift gas and established proper flow.
+3) *G#766(EPS-253):* Observed flow behaviour and predominantly gas circulation at CHP 82ksc. Charged casing with excess lift gas and established flow.
+4) *G#725 & 608( EPS-253):* Found gas lift temporarily closed. Resumed lift gas injection after concurrence of EPS-253 team. Charged casing with excess lift gas and established proper flow.
+5) *G#745(EPS-253):* Observed flow behaviour and well flowing at CHP 78ksc and THP 18Ksc. However, noticed insufficient lift gas flow through adjustable choke. Refreshed adjustable choke and allowed proper lift gas injection.
+6) *G#747 & 765( EPS-253):* Wellsite not approachable due to water flooding.
+7) *G#739,746,777,767(EPS-253):* Observed flow behaviour and found wells flowing normal at usual CHP and THP. Refreshed adjustable choke in order to allow proper gas injection. 
+8) *G#310,340,(6),80,232,771,339,349(5):* Observed flow behaviour and found wells flowing normal at usual CHP and THP. Refreshed adjustable choke in order to allow proper gas injection. 
+
+*Wellhead Pressure:*
+G#713: 78/12/12 (WB)
+G#698: 82/20/20 (WB)
+G#739: 34/10/10 (WB)
+G#766: 86/22/22 (WB)
+G#774: 72/22/22 (WB)
+G#763: 70/15/15 (WB)
+G#746: 98/30/30 (WB)
+G#754: 32/09/09 (WB)
+G#777: 78/28/22 (12)
+G#745: 78/18/18 (WB)
+G#767: 32/20/20 (WB)
+G#608: 105/25/12 (12)
+G#725: 86/20/12 (12)
+G#741: 98/26/26 (WB)
+G#080: 112/20/20 (WB)
+G#771: 70/20/08 (12) 
+G#053: 80/12/12 (WB)
+G#668: 112/10/10 (WB)
+G#535: 80/12/12 (WB)
+G#340: 80/18/18 (WB)
+G#310: 90/12/11 (WB)
+G#232: 110/12/12 (WB)
+G#339: 90/21/08 (10) 
+G#349: 60/12/12 (WB)
+G#120: 52/10/10 (WB)
+G#362: 40/05/05 (WB)
+G#153: 55/14/14 (WB)
+G#162: 54/12/12 (WB)
+G#704: 54/10/10 (WB)
+G#516: 30/17/05 (14)
+G#561: 86/08/08 (WB)
+G#438: 60/32/09 (10)
+
+*Team Details*
+AREA                No. of               No. Of 
+                         Teams.            Persons
+*Ar-3*                *3*                    *3*
+
+Regards,
+Abhishek
