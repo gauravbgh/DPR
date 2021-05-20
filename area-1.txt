@@ -4,7 +4,7 @@ Sir,
 A#034,106,168,211,214,214,219,222,233,238,239,240,246,251,267,270,274,293,294,296,298,320,321,324,330,332,337,341,341,347,347,348,350,352,364,368,374,377,378,379.
 *TPR:* A#337,A#276
 *Remarks:*
-1) *A#343,324,216(4):* Charged casing with extra injection to recover oil losses due to condensate ingress in lift gas line. 
+1) *A#216(4):* Charged casing with extra injection to recover oil losses due to condensate ingress in lift gas line. 
 2) *A#034,368,168,334(4):* Refreshed adjustable choke for proper gas injection due to condensate interference.
 3) *A#350(4)(T)* : Observed feeble flow with Chp dropping upto 0ksc during off injection. Rocked the well multiple times but proper flow couldn't be established. Charged the casing and tubing upto 33ksc, on releasing annulus pressure, tubing pressure dropped simultaneously establishing tubing-annulus communication. Recommended for WOR. 
 4) *A#251(4)(T)* : Observed flow behaviour during injection, found well loaded. Rocked the well and improved flow. ETCC timing set as 23/07min (OFF/ON). Well under observation. 
