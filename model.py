@@ -100,6 +100,3 @@ class DPR():
         with open('compiled.txt', 'w') as f:
             f.write(final)        
         return(None)  
-        
-model_load = DPR()
-model_load.predict()
