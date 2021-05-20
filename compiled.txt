@@ -1,5 +1,5 @@
 Sir,
-*A/Lift DPR on 20/5/2021*
+*A/Lift DPR on 21/5/2021*
 *Wells Monitored*
 A#034,106,168,211,214,214,219,222,233,238,239,240,246,251,267,270,274,293,294,296,298,320,321,324,330,332,337,341,341,347,347,348,350,352,364,368,374,377,378,379,
 G#53,80,120,153,162,232,310,339,340,349,362,438,439,516,535,561,608,668,698,704,713,725,739,741,743,745,754,763,766,767,771,774,777.
@@ -20,7 +20,6 @@ A#337,A#276,G#80,561.
 12) *G#747 & 765( EPS-253):* Wellsite not approachable due to water flooding.
 13) *G#739,746,777,767(EPS-253):* Observed flow behaviour and found wells flowing normal at usual CHP and THP. Refreshed adjustable choke in order to allow proper gas injection. 
 14) *G#310,340,(6),80,232,771,339,349(5):* Observed flow behaviour and found wells flowing normal at usual CHP and THP. Refreshed adjustable choke in order to allow proper gas injection. 
-15) *Jamb#58(ROM-100-I)(Jambusar)(WOR):* Under activation with air compressor. Compressor application continued today in the morning, well found circulating air at 47-48ksc CHP. CTU-N2 job planned for today which got cancelled because of road blockage. Total KO- 17 m3 (well volume- 28 m3).
 *Wellhead pressure:*
 A#238: 32/15.5/04 (10)
 A#330: 06/03/02 (10)
@@ -91,14 +90,10 @@ G#704: 54/10/10 (WB)
 G#516: 30/17/05 (14)
 G#561: 86/08/08 (WB)
 G#438: 60/32/09 (10)
-
 *Team Details*
 AREA                No. of               No. Of 
                          Teams.            Persons
-*Ar-1*                *2*                    *2*
-*Ar-3*                *3*                    *5*
-*SRP*                *1*                    *2*
-*GLV LAB*        *1*                    *3*
+*Ar-3*                *3*                    *3*
 
 Regards
 Gairik Das

@@ -1,4 +1,4 @@
-import 
+import re
 import datetime
 
 abc= datetime.date.today()
@@ -76,16 +76,16 @@ else:
         pressures= pressures + total_pressure[i]+ '\n'
         
 final= """Sir,
-        *A/Lift DPR on {0}/{1}/{2}*
-        *Wells Monitored*
-        {3}
-        *TPR:*
-        {4}
-        *Remarks:*
-        {5}*Wellhead pressure:*
-        {6}
-        Regards
-        Gairik Das""".format(abc.day, abc.month, abc.year, total_wells_monitored, tpr_total, remarks_print,pressures)
+*A/Lift DPR on {0}/{1}/{2}*
+*Wells Monitored*
+{3}
+*TPR:*
+{4}
+*Remarks:*
+{5}*Wellhead pressure:*
+{6}
+Regards
+Gairik Das""".format(abc.day, abc.month, abc.year, total_wells_monitored, tpr_total, remarks_print,pressures)
         
 
 class DPR():
@@ -99,5 +99,7 @@ class DPR():
     def predict(self):
         with open('compiled.txt', 'w') as f:
             f.write(final)        
-        return(None)            
+        return(None)  
         
+model_load = DPR()
+model_load.predict()
