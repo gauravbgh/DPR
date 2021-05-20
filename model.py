@@ -98,5 +98,6 @@ class DPR():
     
     def predict(self):
         #with open('compiled.txt', 'w') as f:
-        #   f.write(final)        
-        return(final)  
+        #   f.write(final)
+        out = final.split('\n')
+        return(out)  
