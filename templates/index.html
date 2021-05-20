@@ -17,15 +17,12 @@
  <div class="login">
 	<h1 style="text-align:center">DPR</h1>
 
-    <form align="left" action="{{ url_for('predict')}}"method="post">
-        <br>
-        <br>
-        <button align="center" type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    <form align="center" action="{{ url_for('predict')}}"method="post">
+        <button align="left" type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
-<br>
 <ul>
 {% for thing in (prediction_text) %}
-  <li>{{thing}}</li>
+{{thing}}</li>
 {% endfor %}  
 </ul>
 
