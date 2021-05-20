@@ -20,19 +20,16 @@
     <form align="center" action="{{ url_for('predict')}}"method="post">
         <br>
         <br>
-        <br>
         <button align="center" type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
-
-  <br>
-   <br>
-     {{ prediction_text }}
+<br>
+<ul>
+{% for thing in (prediction_text) %}
+  <li>{{thing}}</li>
+{% endfor %}  
+</ul>
 
  </div>
-
-
-</body>
-
 
 </body>
 </html>
