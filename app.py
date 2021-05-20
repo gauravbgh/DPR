@@ -15,7 +15,7 @@ def home():
 def predict():
     if (request.method == 'POST'):
         #username = request.form.get("USERNAME")
-        model_load.predict() 
+        abb= model_load.predict() 
         return render_template('index.html', prediction_text= 'SUCCESSFULLY DONE')
     else :
         return render_template('index.html')
