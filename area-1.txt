@@ -1,52 +1,38 @@
 Sir,
-*A/Lift DPR: Gas Lift Area-1 on 20/05/2021*
+*A/Lift DPR on 21/05/2021*
 *Wells Monitored* 
-A#034,106,168,211,214,214,219,222,233,238,239,240,246,251,267,270,274,293,294,296,298,320,321,324,330,332,337,341,341,347,347,348,350,352,364,368,374,377,378,379.
-*TPR:* A#337,A#276
+A#106,276,278,309,310,311,319,320,321,334,337,343,346,347,348,352,354,357,364,368,369,372,376,378,379,Mot#12,13,18,19,21,25.SD#21,23.
+*TPR:* 
+A#337,276
 *Remarks:*
-1) *A#216(4):* Charged casing with extra injection to recover oil losses due to condensate ingress in lift gas line. 
-2) *A#034,368,168,334(4):* Refreshed adjustable choke for proper gas injection due to condensate interference.
-3) *A#350(4)(T)* : Observed feeble flow with Chp dropping upto 0ksc during off injection. Rocked the well multiple times but proper flow couldn't be established. Charged the casing and tubing upto 33ksc, on releasing annulus pressure, tubing pressure dropped simultaneously establishing tubing-annulus communication. Recommended for WOR. 
-4) *A#251(4)(T)* : Observed flow behaviour during injection, found well loaded. Rocked the well and improved flow. ETCC timing set as 23/07min (OFF/ON). Well under observation. 
-5) *A#337(4)(T)* : Observed improved flow post ETCC timing change from 45/15 to 28/12min (OFF/ON). Well flowing at Chp-28ksc, Thp-14ksc during injection. Well under observation. 
-6) *ETCC(GGS-3,4,6)(Ar-1)* : Checked all the ETCC in the GGS as well as at wellsite and ensured proper working.
+1) *A#034,311(4):* Refreshed adjustable choke for proper gas injection due to condensate interference.
+2) *A#214,347(4):* Charged casing with extra injection to recover oil losses due to condensate ingress in lift gas line. 
+3) *A#343(4)(T)* : Well opened post solvent job, observed flow behaviour, found loaded. Charged the casing with multiple excess injections to unload the well. Changed the ETCC timing from 02hrs:45min/00:15min (OFF/ON) to 50/10min (OFF/ON) for proper unloading. Well under observation. 
+4) *A#352(4)(C)* : Observed well flow behaviour, found feeble flow. Charged the casing with excess gas and improved flow behaviour. 
+5) *A#328(3)(T)* : Observed feeble flow dueing injection, charged the casing with excess injection to improve flow behaviour. ETCC timing set as 03hrs:45min/00:15min (OFF/ON). Well under observation. 
+6) *Mot#21(C)* : Observed flow behaviour, found high back pressure in flowline with Abp rising upto 9ksc (Normal Abp-4.5ksc). Recommended for flowline flushing. 
+7) *ETCC(GGS-3,4,Motwan)(Area-1)* : Checked all the ETCC in the GGS as well as at wellsite and ensured proper working.
 *Wellhead Pressures:*
-A#238: 32/15.5/04 (10)
-A#330: 06/03/02 (10)
-A#332: 14.5/06/4.5 (10)
-A#15: 32/7/04 (12)
-A#240: 33/07/04 (08)
-A#246: 34/07/3.5 (12)
-A#239: 31/07/3.5 (10)
-A#293: 32/6.5/03 (12)
-A#110: 13.5/6/03 (10)
-A#211: 34/9.5/07 (10)
-A#219: 29/06/03 (12)
-A#270: 32.5/19/4.5 (10)
-A#293: 32.5/6.5/03 (10)
-A#299: 23/10/06 (10)
-A#298: 29.5/3.5/03 (12)
-A#320: 14.5/08/03 (10)
-A#348: 30/10/04 (10)
-A#255: 33/07/03 (12)
-A#267: 31/07/04 (10)
-A#350: 26/05/3.5 (15) 
-A#216: 22/06/06 (WB)
-A#378: 23/05/05 (WB)
-A#321: 23/7.5/5.5 (12)
-A#278: 31.5/06/04 (12)
-A#249: 33/05/04 (15)
-A#242: 31/06/04 (12)
-A#273: 26/12/04 (12)
-A#307: 31/06/04 (12)
-A#377: 23/05/04 (12)
-A#372: 25/7.5/05 (12)
-A#343: 12/03/03 (WB)
 A#034: 28/10/05 (12)
-A#379: 21/04/04 (WB)
-A#319: 27/05/05 (WB)
 A#214: 31/04/04 (WB)
-A#324: 24/05/05 (WB)
-A#168: 22/14/07 (10)
+A#216: 22/06/06 (WB)
+A#249: 33/05/04 (15)
+A#278: 31/06/04 (12)
+A#311: 30.5/6.5/6.5 (WB)
+A#319: 27/05/05 (WB)
+A#321: 30/7.5/5.5 (12)
+A#324: 24/05/05  (WB)
+A#343: 30/05/05 (WB)
+A#352: 30.5/06/04 (WB)
+A#369: 32.5/07/05 (08)
+A#378: 23/05/05 (WB)
+A#379: 21/04/04 (WB)
+Mot#12: 33/11/03 (10)
+Mot#13: 31/11/06 (10)
+Mot#19: 18/06/03 (12)
+Mot#21: 35/12/9 (12)
+Mot#25: 19/08/04 (12)
+SD#021: 36/08/05 (10)
+SD#023: 30.5/10.5/04 (10)
 Regards, 
 Area-1 Team
