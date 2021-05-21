@@ -5,7 +5,6 @@ from model import DPR
 
 app = Flask(__name__)
 
-model_load = DPR()
 
 @app.route('/')
 def home():
@@ -15,6 +14,8 @@ def home():
 def predict():
     if (request.method == 'POST'):
         #username = request.form.get("USERNAME")
+        
+        model_load = DPR()
         abb= model_load.predict() 
         return render_template('index.html', prediction_text= abb)
     else :
