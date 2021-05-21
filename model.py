@@ -1,20 +1,24 @@
 import re
 import datetime
+import requests
 
 abc= datetime.date.today()
 
-with open('area-3.txt') as f:
-    ar3 = f.readlines()
+url = 'https://raw.githubusercontent.com/gauravbgh/DPR/master/area-3.txt'
+page = requests.get(url)
+ar3= page.text.split('\n')
 
-with open('area-1.txt') as f:
-    ar1 = f.readlines()
+url = 'https://raw.githubusercontent.com/gauravbgh/DPR/master/area-1.txt'
+page = requests.get(url)
+ar1= page.text.split('\n')
+
+url = 'https://raw.githubusercontent.com/gauravbgh/DPR/master/area-4.txt'
+page = requests.get(url)
+ar4= page.text.split('\n')
     
-with open('area-4.txt') as f:
-    ar4 = f.readlines()
-    
-ar3_split= [x.replace('\n','') for x in ar3 if len(x)>1]
-ar1_split= [x.replace('\n','') for x in ar1 if len(x)>1]
-ar4_split= [x.replace('\n','') for x in ar4 if len(x)>1]
+ar3_split= [x for x in ar3 if len(x)>1]
+ar1_split= [x for x in ar1 if len(x)>1]
+ar4_split= [x for x in ar4 if len(x)>1]
 
 def monitored_well(dpr_list):
     indx= dpr_list.index([ i for i in dpr_list if re.search('.*[mM]onitored.*', i)][0])
