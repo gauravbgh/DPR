@@ -1,0 +1,25 @@
+Sir,
+*DPR of A/Lift-Area-4 on 21/05/2021*
+*Monitored well:*
+G#124,722,728,736,770,Jamb#26,49,50.
+*Remarks:*
+1) *G#728,736(GNAQ):* Found wells flowing normally at 98 and 76 ksc CHP respectively. Refreshed adjustable choke for proper gas injection.
+2) *Jamb#50(Jambusar):* Flow behaviour observed after removal of 12mm bean from flowline, found improved flow at 56ksc CHP, 12 ksc THP. Refreshed adjustable choke for proper gas injection.
+3) *Jamb#26,49(Jambusar):* Checked ETCC and found working okay.
+*Wellhead pressure:*
+G#124: 74/07/07 (WB)
+G#728: 98/14/14 (WB)
+G#736: 76/32/28 (10)
+G#722: 85/35/30 (14)
+G#770: NA/16/07 (08)
+Jamb#26: 43/12/12 (WB)
+Jamb#49: 47/12/12 (WB)
+Jamb#50: 56/12/12 (WB)
+
+Regards
+Gaurav Agrawal.
+
+AREA         No. of           No. Of 
+                    Teams.        Persons
+
+*Area-4*             *1*            *2*
