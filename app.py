@@ -1,7 +1,6 @@
 from flask import Flask, jsonify,  request, render_template
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
-from model import DPR
 
 app = Flask(__name__)
 
@@ -14,7 +13,7 @@ def home():
 def predict():
     if (request.method == 'POST'):
         #username = request.form.get("USERNAME")
-        
+        from model import DPR
         model_load = DPR()
         abb= model_load.predict() 
         return render_template('index.html', prediction_text= abb)
