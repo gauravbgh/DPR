@@ -3,7 +3,7 @@ Sir,
 *Wells Monitored* 
 A#106,276,278,309,310,311,319,320,321,334,337,343,346,347,348,352,354,357,364,368,369,372,376,378,379,Mot#12,13,18,19,21,25.SD#21,23.
 *TPR:* 
-A#337,276.
+A#337,276,8888.
 *Remarks:*
 1) *A#034,311(4):* Refreshed adjustable choke for proper gas injection due to condensate interference.
 2) *A#214,347(4):* Charged casing with extra injection to recover oil losses due to condensate ingress in lift gas line. 
