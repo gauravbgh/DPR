@@ -13,7 +13,7 @@ def home():
 @app.route("/predict", methods=['POST'])
 def predict():
     if (request.method == 'POST'):
-        #username = request.form.get("USERNAME")
+        
         ar1 = request.form["ar1"]
         ar3 = request.form["ar3"]
         ar4 = request.form["ar4"]
