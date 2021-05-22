@@ -55,14 +55,6 @@ class DPR():
 
     
     def predict(self):
-        #page = requests.get(self.url3)
-        #ar3= page.text.split('\n')
-        
-        #page = requests.get(self.url1)
-        #ar1= page.text.split('\n')
-        
-        #page = requests.get(self.url4)
-        #ar4= page.text.split('\n')
         
         ar1_split= [x for x in self.ar1_list if len(x)>1]
         ar3_split= [x for x in self.ar3_list if len(x)>1]
