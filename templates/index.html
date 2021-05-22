@@ -18,21 +18,19 @@
 	<h1 style="text-align:center">DPR</h1>
 
     <form align="center" action="{{ url_for('predict')}}"method="post">
+        <textarea name="ar1" rows="4" cols="50"  >area-1 </textarea>
+        <textarea name="ar3" rows="4" cols="50"  >area-3 </textarea>
+        <textarea name="ar4" rows="4" cols="50"  >area-4 </textarea>
+        <br>
+
         <button align="center" type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
-<br>
-<textarea name="ar1" rows="4" cols="50"  >area-1 </textarea>
-<textarea name="ar3" rows="4" cols="50"  >area-3 </textarea>
-<textarea name="ar4" rows="4" cols="50"  >area-4 </textarea>
-<br>
-<ul>
-{% for thing in (prediction_text) %}
-  <li>{{thing}}</li>
-{% endfor %}  
-</ul>
+
+   <br>
+   <br>
+     {{ prediction_text }}
 
  </div>
 
 
 </body>
-</html>
