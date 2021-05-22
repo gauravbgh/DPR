@@ -27,9 +27,9 @@ def predict():
         ar3_list= [x.rstrip('\r') for x in ar3_list]
         ar4_list= [x.rstrip('\r') for x in ar4_list]
         
-        #model_load = DPR(ar1_list, ar3_list, ar4_list)
-        #abb= model_load.predict() 
-        return render_template('index.html', prediction_text= ar1_list)
+        model_load = DPR(ar1_list, ar3_list, ar4_list)
+        abb= model_load.predict() 
+        return render_template('index.html', prediction_text= abb)
     else :
         return render_template('index.html')
 
