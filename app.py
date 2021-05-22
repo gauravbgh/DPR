@@ -14,18 +14,19 @@ def home():
 def predict():
     if (request.method == 'POST'):
         #username = request.form.get("USERNAME")
-        ar1 = self.request.get("ar1")
-        ar3 = self.request.get("ar3")
-        ar4 = self.request.get("ar4")
+        ar1 = request.form["ar1"]
+        ar3 = request.form["ar3"]
+        ar4 = request.form["ar4"]
         
-        ar1_list = ar1.split("\n")
-        ar3_list = ar3.split("\n")
-        ar4_list = ar4.split("\n")
+        
+        #ar1_list = ar1.split("\n")
+        #ar3_list = ar3.split("\n")
+        #ar4_list = ar4.split("\n")
         
         
         #model_load = DPR(ar1_list, ar3_list, ar4_list)
         #abb= model_load.predict() 
-        return render_template('index.html', prediction_text= ar1_list)
+        return render_template('index.html', prediction_text= ar1)
     else :
         return render_template('index.html')
 
