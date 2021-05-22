@@ -47,7 +47,7 @@ class DPR():
         try:
             stop= dpr_list.index([ i for i in dpr_list if re.search('*[tT]eam .*', i)][0])
         
-        except Indexerror:
+        except IndexError:
             stop= dpr_list.index([ i for i in dpr_list if re.search('[rR]egard.*', i)][0])
        
         out= dpr_list[(start+1):stop]
