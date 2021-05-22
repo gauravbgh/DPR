@@ -14,7 +14,7 @@ class DPR():
         return None
     
     def monitored_well(self,dpr_list):
-        indx= dpr_list.index([ i for i in dpr_list if re.search('\*[mM]onitored.*', i)][0])
+        indx= dpr_list.index([ i for i in dpr_list if re.search('.*[mM]onitored.*', i)][0])
         mon_well= dpr_list[indx+1].rstrip('.')
         return (mon_well)
     
