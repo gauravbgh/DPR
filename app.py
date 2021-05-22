@@ -20,9 +20,12 @@ def predict():
         
         
         ar1_list = ar1.split("\n")
-        #ar3_list = ar3.split("\n")
-        #ar4_list = ar4.split("\n")
+        ar3_list = ar3.split("\n")
+        ar4_list = ar4.split("\n")
         
+        ar1_list= [x.rstrip('\r') for x in ar1_list]
+        ar3_list= [x.rstrip('\r') for x in ar3_list]
+        ar4_list= [x.rstrip('\r') for x in ar4_list]
         
         #model_load = DPR(ar1_list, ar3_list, ar4_list)
         #abb= model_load.predict() 
