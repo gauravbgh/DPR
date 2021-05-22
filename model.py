@@ -14,7 +14,7 @@ class DPR():
         return None
     
     def monitored_well(self,dpr_list):
-        indx= dpr_list.index([ i for i in dpr_list if re.search('.*[mM]onitored.*', i)][0])
+        indx= dpr_list.index([ i for i in dpr_list if re.search('\*[mM]onitored.*', i)][0])
         mon_well= dpr_list[indx+1].rstrip('.')
         return (mon_well)
     
@@ -33,8 +33,8 @@ class DPR():
         
     def remark(self, dpr_list):
         remarks=[]
-        ind_remark= dpr_list.index([ i for i in dpr_list if re.search('[rR]emarks.*', i)][0])
-        ind_pressure= dpr_list.index([ i for i in dpr_list if re.search('[wW]ell\s?head .*', i)][0])
+        ind_remark= dpr_list.index([ i for i in dpr_list if re.search('\*[rR]emarks.*', i)][0])
+        ind_pressure= dpr_list.index([ i for i in dpr_list if re.search('\*[wW]ell\s?head .*', i)][0])
         for i in range(1, (ind_pressure-ind_remark)):
             remark= dpr_list[ind_remark+i]
             key= re.search('(\d+.) (\*.+\*)(\s?:?\s?)(.+)', remark)
@@ -43,9 +43,9 @@ class DPR():
         return(remarks)
     
     def wellhead_press(self, dpr_list):
-        start= dpr_list.index([ i for i in dpr_list if re.search('[wW]ell\s?head .*', i)][0])
+        start= dpr_list.index([ i for i in dpr_list if re.search('\*[wW]ell\s?head .*', i)][0])
         try:
-            stop= dpr_list.index([ i for i in dpr_list if re.search('*[tT]eam .*', i)][0])
+            stop= dpr_list.index([ i for i in dpr_list if re.search('\*[tT]eam.*', i)][0])
         
         except IndexError:
             stop= dpr_list.index([ i for i in dpr_list if re.search('[rR]egard.*', i)][0])
