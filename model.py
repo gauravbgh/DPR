@@ -100,6 +100,6 @@ class DPR():
 Regards
 Gairik Das""".format(abc.day, abc.month, abc.year, total_wells_monitored, tpr_total, remarks_print,pressures)
         
-        out = final.split('\n')
+        #out = final.split('\n')
         
-        return(out)  
+        return(final)  
