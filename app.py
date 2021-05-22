@@ -19,14 +19,14 @@ def predict():
         ar4 = request.form["ar4"]
         
         
-        #ar1_list = ar1.split("\n")
+        ar1_list = ar1.split("\n")
         #ar3_list = ar3.split("\n")
         #ar4_list = ar4.split("\n")
         
         
         #model_load = DPR(ar1_list, ar3_list, ar4_list)
         #abb= model_load.predict() 
-        return render_template('index.html', prediction_text= ar1)
+        return render_template('index.html', prediction_text= ar1_list)
     else :
         return render_template('index.html')
 
