@@ -30,7 +30,7 @@ def predict():
         
         model_load = DPR(ar1_list, ar3_list, ar4_list)
         abb= model_load.predict()
-        pyperclip.copy(abb)
+        #pyperclip.copy(abb)
         return render_template('index.html', prediction_text= abb)
     else :
         return render_template('index.html')
