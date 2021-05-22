@@ -2,6 +2,7 @@ from flask import Flask, jsonify,  request, render_template
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 from model import DPR
+import pyperclip
 
 app = Flask(__name__)
 
@@ -28,7 +29,8 @@ def predict():
         ar4_list= [x.rstrip('\r') for x in ar4_list]
         
         model_load = DPR(ar1_list, ar3_list, ar4_list)
-        abb= model_load.predict() 
+        abb= model_load.predict()
+        pyperclip.copy(abb)
         return render_template('index.html', prediction_text= abb)
     else :
         return render_template('index.html')
