@@ -44,11 +44,12 @@ class DPR():
     
     def wellhead_press(self, dpr_list):
         start= dpr_list.index([ i for i in dpr_list if re.search('[wW]ell\s?head .*', i)][0])
-        stop= dpr_list.index([ i for i in dpr_list if re.search('[rR]egard.*', i)][0])
-        stop_= dpr_list.index([ i for i in dpr_list if re.search('[tT]eam .*', i)][0])
-        if stop_<stop:
-                stop=stop_
+        try:
+            stop= dpr_list.index([ i for i in dpr_list if re.search('*[tT]eam .*', i)][0])
         
+        except Indexerror:
+            stop= dpr_list.index([ i for i in dpr_list if re.search('[rR]egard.*', i)][0])
+       
         out= dpr_list[(start+1):stop]
         return(out)
 
