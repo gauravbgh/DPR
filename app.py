@@ -14,9 +14,9 @@ def home():
 def predict():
     if (request.method == 'POST'):
         #username = request.form.get("USERNAME")
-        ar1 = str(request.form.get("ar1"))
-        ar3 = str(request.form.get("ar3"))
-        ar4 = str(request.form.get("ar4"))
+        ar1 = self.request.get("ar1")
+        ar3 = self.request.get("ar3")
+        ar4 = self.request.get("ar4")
         
         ar1_list = ar1.split("\n")
         ar3_list = ar3.split("\n")
