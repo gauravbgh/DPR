@@ -59,8 +59,8 @@ class DPR():
         #page = requests.get(self.url4)
         #ar4= page.text.split('\n')
         
-        ar3_split= [x for x in self.ar1_list if len(x)>1]
-        ar1_split= [x for x in self.ar3_list if len(x)>1]
+        ar1_split= [x for x in self.ar1_list if len(x)>1]
+        ar3_split= [x for x in self.ar3_list if len(x)>1]
         ar4_split= [x for x in self.ar4_list if len(x)>1]
         
         if len(ar4_split)>4:
